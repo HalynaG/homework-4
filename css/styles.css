@@ -289,7 +289,7 @@ font-weight: 700;
 }
 
 
-.member-title {
+.specifics .member-title {
     
         margin-bottom: 10px;
     text-transform: uppercase;
@@ -311,6 +311,7 @@ font-weight: 700;
 /* < !--Чем мы занимаемся--> */
 .doing {
     padding-top: 0px;
+    padding-bottom: 94px;
 }
 
 .section-title {
@@ -326,7 +327,7 @@ text-align: center;
 
 .section-list {
     display: flex;
-    padding-bottom: 94px;
+    
 }
 
 .section-list .item:not(:last-child) {
@@ -424,10 +425,7 @@ display: inline-block;
 }
     
 .footer-item {
-    display: inline-block;
-    margin-top: 9px;
-color:  var(--footer-adress-color);
-text-decoration: none;
+       color:  var(--footer-adress-color);
 font-style: normal;
 }
 
@@ -455,7 +453,7 @@ font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-
+letter-spacing: 0.03em;
     text-align: center;
     
     font-family: Roboto,
@@ -476,14 +474,6 @@ background-color: var(--accent-color);
     display: flex;
         flex-wrap: wrap;
 
-        margin-right: -30px;
-            margin-bottom: -30px;
-    /*justify-content: space-between;
-
-    list-style: none;
-        padding-left: 0;
-        margin-top: 50px;
-        margin-bottom: 0;*/
 }
 
 .gallery-item {
