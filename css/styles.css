@@ -28,7 +28,7 @@ body {
 
 a {
     text-decoration: none;
-    padding: 0;
+    
 }
 
 img {
@@ -130,14 +130,7 @@ button {
 
 /* <!--Навігація -->*/
 
-.header-list,
-.hero .list,
-.specifics .list,
-.doing .list,
-.footer-adress,
-.member-list,
-.filters,
-.gallery {
+.list {
 list-style: none;
 margin: 0;
 padding-left: 0;
@@ -238,6 +231,7 @@ font-style: normal;
 /* <!--Заголовок-->*/
 .hero {
     max-width: 1600px;
+    max-height: 600px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -301,16 +295,10 @@ font-weight: 700;
 }
 
 .feature-list {
-
     display: flex;
-    flex-direction: row;
-        justify-content: space-between;
-        list-style: none;
-    
-        /* height: 200px; */
-        margin: 0;
-               padding-left: 0;
+   
 }
+
 /*.feature-list .feature-iteam+.feature-iteam {
     margin-left: 30px;
 }*/
@@ -436,17 +424,17 @@ padding-top: 94px;
 
 .social-media-list {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 list-style: none;
-padding-left: 32px;
-    padding-right: 32px;
+/*padding-left: 32px;
+    padding-right: 32px;*/
 }
 
 .social-media-item {
     display: inline-flex;
     width: 44px;
     height: 44px;
-    padding: 12px;
+    /*padding: 12px;*/
         border-radius: 50%;
         background-color: var(--white-color);
         align-items: center;
@@ -460,8 +448,8 @@ padding-left: 32px;
     fill: currentColor;
 }
 
-.social-media-item:hover,
-.social-media-item:focus {
+.media-icon:hover,
+.media-icon:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
